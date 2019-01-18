@@ -16,4 +16,4 @@ To run on localhost without docker, cd into the app directory and run:
 ```python
 python main.py
 ```
-And navigate in your browser to localhost:8000. The username is: block and the password is: science
+And navigate in your browser to localhost:8000. The username is: user and the password is: pass
