@@ -8,7 +8,7 @@ def check_auth(username, password):
     """This function is called to check if a username /
     password combination is valid.
     """
-    return username == 'block' and password == 'science'
+    return username == 'user' and password == 'pass'
 
 def authenticate():
     """Sends a 401 response that enables basic auth"""
@@ -68,7 +68,7 @@ def squareAPI():
     Example API call:
         Curl:
 
-        curl -X POST -H "Content-Type: application/json"  -u "block:science*" -d '{
+        curl -X POST -H "Content-Type: application/json"  -u "user:pass" -d '{
         "number": ".5"
         }' http://localhost:8000/square
 
@@ -82,7 +82,7 @@ def squareAPI():
 
         data = '{"number": "5"}'
 
-        response = requests.post('http://localhost:80/square', headers=headers,squareAPI data=data,auth=('block', 'science'))
+        response = requests.post('http://localhost:80/square', headers=headers,squareAPI data=data,auth=('user', 'pass'))
         response.json()[0]['Result']
 
     '''
