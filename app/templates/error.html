@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>API Example</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/minty/bootstrap.min.css">
+  </head>
+    <body>
+<br>
+<br>
+    <div class="container">
+  <div class="jumbotron">
+    <h1 class="display-3">API Example</h1>
+    <p class="lead">Example square UI.</p>
+    <div class="alert alert-dismissible alert-danger"  style="width:450px;">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      <strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.
+    </div>
+    <form action="/result" method="post" enctype="multipart/form-data">
+      <div class="form-group" style="width:450px;">
+        <label for="number">Type in a number you would like to square below:</label>
+        <textarea class="form-control" id="number" name="number" rows = '1'></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Result</button>
+    </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
