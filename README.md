@@ -1,14 +1,17 @@
 # Basic API example
 
 To build Docker image:
+```bash
 sudo docker build -t api:latest .
-
+```
 To run Docker image:
+```bash
 sudo docker run -d --restart=always -p 80:80 api
-
+```
 Remove old images:
+```bash
 sudo docker system prune -f
-
+```
 Installing Docker:
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04
 
