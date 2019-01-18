@@ -2,11 +2,11 @@
 
 To build Docker image:
 ```bash
-sudo docker build -t api:latest .
+sudo docker build -t apiexample:latest .
 ```
 To run Docker image:
 ```bash
-sudo docker run -d --restart=always -p 80:80 api
+sudo docker run -d --restart=always -p 80:80 apiexample
 ```
 Remove old images:
 ```bash
